@@ -1,0 +1,17 @@
+img{
+    max-width: 80%;
+    max-height: auto;
+    margin:auto 5px;
+}
+h1{
+    color: aliceblue;
+    text-decoration: underline;
+    margin:auto 5px;
+    padding: auto;
+}
+h3{
+    color: aliceblue;
+    text-decoration: solid;
+    margin:auto 5px;
+    padding: auto;
+}

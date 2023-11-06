@@ -1,0 +1,18 @@
+<img [src]="incident?.img" alt="image for {{incident?.title}}">
+<section>
+    <h2>
+        {{incident?.title}}
+    </h2>
+    <span [style.background-color]="incident?.status?.bg_color"
+    [style.color]="incident?.status?.txt_color">{{incident?.status?.name}}</span>
+    <p>
+        {{incident?.description}}
+    </p>
+</section>
+<section>
+    <h2>User: {{incident?.user?.name}}</h2>
+    <h3>Hardware: {{incident?.hardware?.equipment}} </h3>
+    <h3>Area: {{incident?.area?.name}}</h3>
+</section>
+
+    <a [routerLink]="['']" routerLinkActive="router-link-active" (click)='onLinkClick()'>Home</a>

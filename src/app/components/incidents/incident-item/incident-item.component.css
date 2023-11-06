@@ -1,0 +1,15 @@
+*{
+    background-color: darkgray;
+    padding: 4px;
+    color:whitesmoke;
+    margin-bottom:3px ;
+}
+img{
+    max-width: 300px;
+    max-height: auto;
+    margin: auto 5px;
+}
+span{
+    padding: 5px;
+    margin: auto 45%;
+}

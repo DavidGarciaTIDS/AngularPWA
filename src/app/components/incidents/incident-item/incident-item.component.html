@@ -1,0 +1,14 @@
+<li>
+    <div class="image">
+        <img [src]="incident.img" alt="Image of {{incident.title}}">   
+    </div>
+    <div class="incident">
+        <h2>{{incident.title}}</h2>
+        <span [style.background-color]="incident.status.bg_color"
+        [style.color]="incident.status.txt_color">
+        {{incident.status.name}}
+        </span>
+        <p>{{incident.description}}</p>
+        <a [routerLink]="['/incident', incident.id]" (click)="onLinkClick()">Learn More</a> 
+    </div>
+</li>

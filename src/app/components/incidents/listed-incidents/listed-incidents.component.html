@@ -1,0 +1,8 @@
+
+<ul>
+  <button (click)="showNotification()">Notify me</button>
+  <app-incident-item
+    *ngFor="let incident of incidentList"
+    [incident]="incident"
+  ></app-incident-item>
+</ul>
