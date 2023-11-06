@@ -6,7 +6,7 @@ Made by David García
 ## User Guide 
 
 ### Install
-- Go to the page URL
+- Go to the page [URL](https://fictional-disco-wxp6r6995x6f976w-4200.app.github.dev)
 - on the top of the page you will see an install button click on there and install
 - after that the icon will be on your home screen 
 
